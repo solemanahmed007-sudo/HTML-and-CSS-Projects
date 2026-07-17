@@ -6,11 +6,31 @@
     <title>One Page Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Welcome to My One Page Website</h1>
+    <header>
+        <h1>Welcome to My One Page Website</h1>
+        <p>This website was created using HTML, CSS, and JavaScript.</p>
+    </header>
 
-    <p>This website was created using HTML and CSS.</p>
+    <section>
+        <h2>Image Gallery</h2>
+        <p>Click any image to view it in the lightbox.</p>
+
+        <div class="gallery">
+            <img src="images/image1.jpg" alt="Gallery image 1">
+            <img src="images/image2.jpg" alt="Gallery image 2">
+            <img src="images/image3.jpg" alt="Gallery image 3">
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-image" class="lightbox-image" alt="Expanded gallery image">
+    </div>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
