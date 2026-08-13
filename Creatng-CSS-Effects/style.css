@@ -1,0 +1,21 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.1) rotate(3deg);
+    filter: brightness(80%);
+}
