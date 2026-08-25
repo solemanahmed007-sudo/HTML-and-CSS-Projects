@@ -1,40 +1,24 @@
-# JavaScript Projects
+# HTML and CSS Projects
 
-Welcome to my JavaScript Projects repository.
-
-This repository contains the projects I completed throughout my JavaScript course to strengthen my skills in HTML, CSS, and JavaScript.
+This repository contains projects I completed during my HTML and CSS course. These projects helped me practice HTML, CSS, Bootstrap, responsive web design, navigation, forms, and different styling techniques.
 
 ## Projects
 
-### Portfolio Website
-A responsive personal portfolio website built using HTML, CSS, and JavaScript. Features include:
-- Navigation menu
-- Interactive image slideshow
-- About Me section
-- GitHub profile link
-- Contact form
-- Custom images and styling
-
 ### One-Page Website
-A one-page website developed using HTML and CSS that demonstrates:
-- Responsive layout
-- Image gallery
-- Lightbox (modal image gallery)
-- Basic navigation and styling
+A one-page website created using HTML and CSS. This project includes navigation, images, and multiple sections on a single webpage.
 
+### Creating CSS Effects
+A project focused on using CSS to add styling and visual effects to webpages, including hover effects and image styling.
 
-## Skills Demonstrated
+### Simple Recipes
+A simple recipe website created using HTML and CSS. The website displays different recipes and includes an About section.
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- DOM Manipulation
-- Git
-- GitHub
+### Introduction to Bootstrap
+A project created using the Bootstrap framework to practice responsive layouts and Bootstrap components.
 
-## Purpose
+### Portfolio Website
+My personal portfolio website created using HTML and CSS. It includes Home, About, GitHub, and Contact sections and links to my GitHub profile.
 
-The purpose of this repository is to document my progress throughout the JavaScript course while building practical web development projects. Each project helped me improve my understanding of HTML, CSS, JavaScript, and version control using Git and GitHub.
+## GitHub
 
-Thank you for visiting my repository!
+This repository contains the source code for the projects completed throughout my HTML and CSS course.

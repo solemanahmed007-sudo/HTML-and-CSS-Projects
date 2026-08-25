@@ -1,0 +1,162 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #333;
+}
+html {
+scroll-behavior: smooth;
+}
+.navbar {
+background-color: #1f2937;
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+.navbar a {
+display: inline-block;
+color: white;
+text-decoration: none;
+padding: 16px 22px;
+font-weight: bold;
+}
+.navbar a:hover {
+background-color: #2563eb;
+}
+.hero {
+background-color: #111827;
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+.hero h1 {
+margin: 0 0 10px;
+font-size: 42px;
+}
+.hero h2 {
+margin: 0 0 20px;
+font-size: 24px;
+}
+.hero p {
+max-width: 700px;
+margin: 0 auto;
+font-size: 18px;
+line-height: 1.6;
+}
+.section {
+max-width: 1000px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+.two-column {
+display: flex;
+align-items: center;
+gap: 40px;
+}
+.image-column {
+flex: 1;
+text-align: center;
+}
+.text-column {
+flex: 1;
+}
+.image-column img {
+width: 100%;
+max-width: 350px;
+height: auto;
+border-radius: 10px;
+}
+.image-column img:hover {
+transform: scale(1.05);
+}
+.text-column h2 {
+font-size: 30px;
+margin-bottom: 15px;
+}
+.text-column p {
+font-size: 17px;
+line-height: 1.6;
+}
+.button {
+display: inline-block;
+margin-top: 10px;
+padding: 12px 20px;
+background-color: #2563eb;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+}
+.button:hover {
+background-color: #1d4ed8;
+}
+.contact-section {
+background-color: white;
+border-radius: 10px;
+}
+.contact-section h2 {
+font-size: 30px;
+margin-bottom: 15px;
+}
+form {
+max-width: 650px;
+margin: 0 auto;
+}
+label {
+display: block;
+margin-top: 15px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+input {
+width: 100%;
+padding: 12px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+textarea {
+width: 100%;
+padding: 12px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 6px;
+height: 120px;
+}
+button {
+display: block;
+margin: 20px auto 0;
+padding: 12px 25px;
+background-color: #111827;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+button:hover {
+background-color: #2563eb;
+}
+footer {
+text-align: center;
+background-color: #1f2937;
+color: white;
+padding: 20px;
+}
+@media screen and (max-width: 768px) {
+.two-column {
+flex-direction: column;
+}
+.navbar a {
+padding: 12px 10px;
+font-size: 14px;
+}
+.hero h1 {
+font-size: 34px;
+}
+.hero h2 {
+font-size: 22px;
+}
+.section {
+padding: 30px 20px;
+}
+}
