@@ -45,3 +45,19 @@ document.addEventListener("click", function(event){
         closeForm()
     }
 }, false )
+// Simple JavaScript animation
+let position = 0;
+let direction = 1;
+const title = document.getElementById("animatedTitle");
+
+function animateTitle() {
+    position += direction;
+
+    if (position >= 50 || position <= 0) {
+        direction *= -1;
+    }
+
+    title.style.transform = "translateX(" + position + "px)";
+}
+
+setInterval(animateTitle, 20);
